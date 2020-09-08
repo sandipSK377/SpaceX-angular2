@@ -1,0 +1,9 @@
+<div class="card-view ">
+    <h4>Filters</h4>
+    <p class="text-center">Launch Year</p>
+    <hr>
+    <button type="button" class="btn btn-sm btn-success mt-2 mb-2" (click)="clear()">Clear</button>
+    <div class="pt-2 text-center">
+        <button class="btn btn-primary btn-sm mr-3 mb-4" (click)="filterByYear(data)" *ngFor="let data of years">{{data}}</button>
+    </div>
+</div>

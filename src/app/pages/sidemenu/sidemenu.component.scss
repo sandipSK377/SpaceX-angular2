@@ -1,0 +1,17 @@
+.card-view {
+    h4 {
+        font-weight: 600;
+    }
+    p {
+        margin: 0;
+    }
+    hr {
+        margin: 0 !important;
+    }
+    button {
+        opacity: .6;
+        &:focus {
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+h3 {
+    font-weight: 600;
+}
+
+.card-view {
+    min-height: 440px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    p {
+        color: black;
+        font-weight: 600;
+    }
+    p.mision-name {
+        color: blue;
+        margin-top: 1.2rem;
+    }
+    li {
+        color: blue;
+    }
+    span {
+        color: blue;
+        font-weight: 100;
+    }
+}
